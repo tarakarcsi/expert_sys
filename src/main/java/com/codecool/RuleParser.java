@@ -1,5 +1,6 @@
 package com.codecool;
 
 
-public class RuleParser {
+public class RuleParser extends XMLParser {
+
 }
