@@ -1,11 +1,4 @@
-public class Singlevalue {
+package com.codecool;
 
-    private String param;
-    private boolean selectionType;
-
-    public Singlevalue(String param, boolean selectionType) {
-        this.param = param;
-        this.selectionType = selectionType;
-    }
-
+public class SingleValue {
 }
