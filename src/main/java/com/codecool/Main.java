@@ -1,5 +1,3 @@
-package com.codecool;
-
 public class Main {
 
     public String getWelcomeString() {
