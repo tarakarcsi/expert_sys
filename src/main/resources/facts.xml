@@ -1,32 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Facts>
-    <Fact id="tesla">
-        <Description value="Tesla Model S"/>
+    <Fact id="aston">
+        <Description value="Aston Martin DB 11"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="volvo">
+        <Description value="Volvo XC60"/>
         <Evals>
             <Eval id="family">true</Eval>
             <Eval id="money">true</Eval>
-            <Eval id="comfort">false</Eval>
+            <Eval id="comfort">true</Eval>
             <Eval id="luxury">true</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
     ...
-    <Fact id="mokka">
-        <Description value="Opel Mokka"/>
-        <Evals>
-            <Eval id="family">true</Eval>
-            <Eval id="money">false</Eval>
-            <Eval id="comfort">false</Eval>
-            <Eval id="luxury">true</Eval>
-        </Evals>
-    </Fact>
-    ...
-    <Fact id="lada">
-        <Description value="Lada"/>
+    <Fact id="volkswagen">
+        <Description value="Volkswagen Polo 3"/>
         <Evals>
             <Eval id="family">false</Eval>
             <Eval id="money">false</Eval>
             <Eval id="comfort">false</Eval>
             <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
         </Evals>
+    </Fact>
+    ...
+    <Fact id="rollsroyce">
+        <Description value="Rolls-Royce Dawn"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    <Fact id="porsche">
+        <Description value="Porsche 911"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
     </Fact>
 </Facts>
