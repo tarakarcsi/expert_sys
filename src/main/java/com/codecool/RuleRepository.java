@@ -1,6 +1,6 @@
 package  com.codecool;
 
-import java.util.Iterator;
+/*import java.util.Iterator;
 public class RuleRepository {
 
 
@@ -13,4 +13,4 @@ public class RuleRepository {
     }
 
 
-}
+}*/
