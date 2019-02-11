@@ -1,6 +1,5 @@
 package com.codecool;
 
-
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
@@ -23,7 +22,7 @@ import java.io.File;
 
                 System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 
-                NodeList nList = doc.getElementsByTagName("staff");
+                NodeList nList = doc.getElementsByTagName("facts");
 
                 System.out.println("----------------------------");
 
@@ -37,13 +36,13 @@ import java.io.File;
 
                         Element eElement = (Element) nNode;
 
-                        System.out.println("Staff id : " + eElement.getAttribute("id"));
-                        System.out.println("First Name : " + eElement.getElementsByTagName("family").item(0).getTextContent());
-                        System.out.println("Last Name : " + eElement.getElementsByTagName("money").item(0).getTextContent());
-                        System.out.println("Nick Name : " + eElement.getElementsByTagName("comfort").item(0).getTextContent());
-                        System.out.println("Salary : " + eElement.getElementsByTagName("luxury").item(0).getTextContent());
-                        System.out.println("Salary : " + eElement.getElementsByTagName("speed").item(0).getTextContent());
-                        System.out.println("Salary : " + eElement.getElementsByTagName("consumption").item(0).getTextContent());
+                        System.out.println("Car id     : " + eElement.getAttribute("id"));
+                        System.out.println("Family     : " + eElement.getElementsByTagName("family").item(0).getTextContent());
+                        System.out.println("Money      : " + eElement.getElementsByTagName("money").item(0).getTextContent());
+                        System.out.println("Comfort    : " + eElement.getElementsByTagName("comfort").item(0).getTextContent());
+                        System.out.println("Luxury     : " + eElement.getElementsByTagName("luxury").item(0).getTextContent());
+                        System.out.println("Speed      : " + eElement.getElementsByTagName("speed").item(0).getTextContent());
+                        System.out.println("Consumption: " + eElement.getElementsByTagName("consumption").item(0).getTextContent());
 
                     }
                 }
