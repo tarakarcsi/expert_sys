@@ -11,10 +11,10 @@ import java.io.File;
 
     public class XMLParser {
 
-        public void loadXmlDocument(String pathname) {
+        public void loadXmlDocument(String pathName) {
             try {
 
-                File fXmlFile = new File(pathname);
+                File fXmlFile = new File(pathName);
                 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
                 Document doc = dBuilder.parse(fXmlFile);
