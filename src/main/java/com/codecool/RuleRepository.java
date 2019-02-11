@@ -1,3 +1,6 @@
+package  com.codecool;
+
+import java.util.Iterator;
 public class RuleRepository {
 
 
