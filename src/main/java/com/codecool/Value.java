@@ -1,3 +1,7 @@
+package com.codecool;
+
+/*import java.util.List;
+
 public abstract class Value {
 
 
@@ -8,4 +12,4 @@ public abstract class Value {
     public boolean getSelectionType() {
 
     }
-}
+}*/

@@ -1,4 +1,4 @@
-public class Question {
+/*public class Question {
 
     private String id, question;
     private Answer answer;
@@ -27,4 +27,4 @@ public class Question {
 
     }
 
-}
+}*/
