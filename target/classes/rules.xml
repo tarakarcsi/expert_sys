@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="money">
+        <Question>Do you have 100.000.000 HUF for a car?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="comfort">
+        <Question>What is more important for you(comfort or speed)?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="comfort"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="speed"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="luxury">
+        <Question>What feature is must-have for you?</Question>
+        <Answer>
+            <Selection value="true">
+                <MultipleValue value="automatic transmission,self-driving,leather seats,self-parking,"/>
+            </Selection>
+            <Selection value="false">
+                <MultipleValue value="abs,fog lights,central lock,hole on the chassis"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="consumption">
+        <Question>Is low consumption important for you?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="speed">
+        <Question>Do you want high performance?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
