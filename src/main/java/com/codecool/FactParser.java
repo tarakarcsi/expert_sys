@@ -27,4 +27,15 @@ public class FactParser extends XMLParser {
             Fact fact = new Fact(id, description);
         }
     }
+
+    public void getEvalMap(Element tempElement, Fact fact) { // parsing the Evals part of the xml and putting them into Maps
+
+        Element evalsNode = (Element) tempElement.getElementsByTagName("Evals").item(0); // root element: <Evals>
+        NodeList evalNodes = evalsNode.getElementsByTagName("Eval");             //list of Eval nodes
+
+        for(int i = 0; i < evalNodes.getLength(); i++){
+
+
+        }
+    }
 }
