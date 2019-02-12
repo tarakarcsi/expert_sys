@@ -35,7 +35,12 @@ public class FactParser extends XMLParser {
 
         for(int i = 0; i < evalNodes.getLength(); i++){
 
+            Element evaluation = (Element) evalNodes.item(i);
 
+            String id = evaluation.getAttribute("id");
+            String value = evaluation.getTextContent();
+
+            fact.setFactValueById(id, Boolean.valueOf(value));
         }
     }
 }
