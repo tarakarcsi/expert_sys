@@ -1,4 +1,6 @@
-/*public class Question {
+package com.codecool;
+
+public class Question {
 
     private String id, question;
     private Answer answer;
@@ -27,4 +29,4 @@
 
     }
 
-}*/
+}
