@@ -11,31 +11,28 @@
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="comfort">
-        <Question>What is more important for you(comfort or speed)?</Question>
+        <Question>The comfort is important for you?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="comfort"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="speed"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="luxury">
-        <Question>What feature is must-have for you?</Question>
+        <Question>The luxury is important for you?</Question>
         <Answer>
             <Selection value="true">
-                <MultipleValue value="automatic transmission,self-driving,leather seats,self-parking,"/>
+                <MultipleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="abs,fog lights,central lock,hole on the chassis"/>
+                <MultipleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="consumption">
         <Question>Is low consumption important for you?</Question>
         <Answer>
@@ -47,7 +44,6 @@
             </Selection>
         </Answer>
     </Rule>
-    ...
     <Rule id="speed">
         <Question>Do you want high performance?</Question>
         <Answer>
