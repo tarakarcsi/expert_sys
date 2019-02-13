@@ -31,8 +31,8 @@ public class ESProvider {
     }
 
     public boolean isValid(String answer){
-    if (answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no")) {
-        return true;
+        if (answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no")) {
+            return true;
         } else {
             return false;
         }
