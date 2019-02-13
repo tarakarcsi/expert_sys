@@ -64,7 +64,6 @@ public class RuleParser extends XMLParser {
         }
         return answer;
     }
-
 }
 
 
