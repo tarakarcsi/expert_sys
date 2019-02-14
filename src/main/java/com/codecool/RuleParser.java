@@ -34,7 +34,6 @@ public class RuleParser extends XMLParser {
             Question question = new Question(id,questionText,answer);
 
             this.ruleRepository.addQuestion(question);
-            System.out.println(question.getId());
         }
         //reading the questions part and making Question objects
         //need: iterate through the nodelist: declare rule id(single/multi and question textcontent

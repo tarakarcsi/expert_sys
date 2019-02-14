@@ -28,8 +28,6 @@ public class ESProvider {
 
         String input;
         answers = new HashMap<>();
-        System.out.println(ruleParser.getRuleRepository());
-
         while(ruleParser.getRuleRepository().getQuestionIterator().hasNext()){
             int i = 0;
             for(Question question : ruleParser.getRuleRepository().getQuestions()){

@@ -19,6 +19,10 @@ public class FactRepository {
         return this.factList;
     }
 
+    public Iterator<Fact> getFactIterator() {
+        return this.factIterator;
+    }
+
     public void addFact(Fact fact) {
         factList.add(fact);
     }

@@ -19,9 +19,6 @@ public class Fact {
     }
 
 
-    public Fact(){
-
-    }
 
     public Map<String, Boolean> getEvalMap() {
         return this.evalMap;

@@ -13,7 +13,7 @@ public class FactParser extends XMLParser {
         loadXmlDocument(xmlPath);
         this.factRepository = new FactRepository();
         this.nodeList = doc.getElementsByTagName("Fact");
-
+        addFactsToRepository();
     }
 
     public FactRepository getFactRepository() {
@@ -30,7 +30,9 @@ public class FactParser extends XMLParser {
             String description = ((Element)descriptionNode).getAttribute("value");
 
             Fact fact = new Fact(id, description);
-            System.out.println(fact.getId());
+            getEvalMap(factElement, fact);
+
+            this.factRepository.addFact(fact);
 
         }
     }
