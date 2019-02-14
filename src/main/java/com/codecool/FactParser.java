@@ -5,6 +5,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class FactParser extends XMLParser {
+
     private FactRepository factRepository;
     private NodeList nodeList;
 
@@ -13,6 +14,10 @@ public class FactParser extends XMLParser {
         this.factRepository = new FactRepository();
         this.nodeList = doc.getElementsByTagName("Fact");
 
+    }
+
+    public FactRepository getFactRepository() {
+        return factRepository;
     }
 
 

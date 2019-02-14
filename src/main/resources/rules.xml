@@ -23,13 +23,13 @@
         </Answer>
     </Rule>
     <Rule id="luxury">
-        <Question>The luxury is important for you?</Question>
+        <Question>Is luxury important for you?</Question>
         <Answer>
             <Selection value="true">
-                <MultipleValue value="yes"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="no"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
@@ -46,6 +46,17 @@
     </Rule>
     <Rule id="speed">
         <Question>Do you want high performance?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="family">
+        <Question>Do you need more than 5 seats in your car?</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>

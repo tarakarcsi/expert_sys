@@ -1,5 +1,6 @@
 package  com.codecool;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -12,16 +13,20 @@ public class RuleRepository {
         return questions;
     }
 
+    public RuleRepository(){
+        this.questions = new ArrayList<>();
+        this.questionIterator = new QuestionIterator();
+    }
 
     public Iterator<Question> getQuestionIterator() {
-        return questionIterator;
+        return this.questionIterator;
     }
 
     public void addQuestion(Question question) {
         this.questions.add(question);
     }
 
-    public class ruleIterator implements Iterator{
+    public class QuestionIterator implements Iterator{
 
         private int index;
 

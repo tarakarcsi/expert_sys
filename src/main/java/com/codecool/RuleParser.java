@@ -17,7 +17,7 @@ public class RuleParser extends XMLParser {
         loadXmlDocument(xmlPath);
         this.ruleRepository = new RuleRepository();
         this.nodeList = doc.getElementsByTagName("Rule");
-
+        loadQuestions();
     }
 
     public RuleRepository getRuleRepository() {
@@ -57,12 +57,12 @@ public class RuleParser extends XMLParser {
             if(answerNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element answerElement = (Element) answerNode;
 
-                Element valueNode = (Element) answerNode.getChildNodes().item(0);
+                Element valueNode = (Element) answerNode.getChildNodes().item(1);
                 boolean answerType = Boolean.valueOf(answerElement.getAttribute("value"));
 
                 Value value;
 
-                if(valueNode.getNodeName().equals("SingleValue")) {
+                if(valueNode.getNodeName().equalsIgnoreCase("SingleValue")) {
                     String param = valueNode.getAttribute("value");
                     value = new SingleValue(param, answerType);
                 }else {

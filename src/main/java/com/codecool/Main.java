@@ -4,9 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FactParser fp = new FactParser("src/main/resources/facts.xml");
-        //fp.addFactsToRepository();
-        RuleParser rp = new RuleParser("src/main/resources/rules.xml");
-        rp.loadQuestions();
+        FactParser factParser = new FactParser("src/main/resources/facts.xml");
+        RuleParser ruleParser = new RuleParser("src/main/resources/rules.xml");
+        ESProvider esp = new ESProvider(factParser, ruleParser);
+
+        esp.collectAnswer();
+        System.out.println("We recommend u the " + esp.evaluate());
     }
 }

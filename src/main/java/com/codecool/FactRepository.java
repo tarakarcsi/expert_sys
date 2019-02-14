@@ -1,5 +1,6 @@
 package com.codecool;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -9,8 +10,13 @@ public class FactRepository {
     private Iterator<Fact> factIterator;
 
 
+    public FactRepository() {
+        this.factList = new ArrayList<>();
+        this.factIterator = new FactIterator();
+    }
+
     public List<Fact> getFactList() {
-        return factList;
+        return this.factList;
     }
 
     public void addFact(Fact fact) {

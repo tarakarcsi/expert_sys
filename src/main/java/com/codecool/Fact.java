@@ -1,5 +1,6 @@
 package com.codecool;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -17,14 +18,19 @@ public class Fact {
         return this.description;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
+
+    public Fact(){
+
+    }
+
+    public Map<String, Boolean> getEvalMap() {
+        return this.evalMap;
     }
 
     public Fact(String id, String description) {
         this.id = id;
         this.description = description;
+        this.evalMap = new HashMap<>();
     }
 
     public void setFactValueById(String id, boolean value){

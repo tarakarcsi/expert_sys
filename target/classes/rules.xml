@@ -12,24 +12,24 @@
         </Answer>
     </Rule>
     <Rule id="comfort">
-        <Question>What is more important for you(comfort or speed)?</Question>
+        <Question>The comfort is important for you?</Question>
         <Answer>
             <Selection value="true">
-                <SingleValue value="comfort"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <SingleValue value="speed"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
     <Rule id="luxury">
-        <Question>What feature is must-have for you?</Question>
+        <Question>Is luxury important for you?</Question>
         <Answer>
             <Selection value="true">
-                <MultipleValue value="automatic transmission,self-driving,leather seats,self-parking,"/>
+                <SingleValue value="yes"/>
             </Selection>
             <Selection value="false">
-                <MultipleValue value="abs,fog lights,central lock,hole on the chassis"/>
+                <SingleValue value="no"/>
             </Selection>
         </Answer>
     </Rule>
@@ -46,6 +46,17 @@
     </Rule>
     <Rule id="speed">
         <Question>Do you want high performance?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="family">
+        <Question>Do you need more than 5 seats in your car?</Question>
         <Answer>
             <Selection value="true">
                 <SingleValue value="yes"/>
