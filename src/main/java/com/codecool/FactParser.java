@@ -25,7 +25,14 @@ public class FactParser extends XMLParser {
             String description = ((Element)descriptionNode).getAttribute("value");
 
             Fact fact = new Fact(id, description);
+            System.out.println(fact.getId());
+
         }
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 
     public void getEvalMap(Element tempElement, Fact fact) { // parsing the Evals part of the xml and putting them into Maps

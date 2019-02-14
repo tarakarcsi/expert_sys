@@ -20,6 +20,10 @@ public class RuleParser extends XMLParser {
 
     }
 
+    public RuleRepository getRuleRepository() {
+        return this.ruleRepository;
+    }
+
     public void loadQuestions(){
         for(int i = 0;i < nodeList.getLength(); i++){
             Node ruleNode = nodeList.item(i);
@@ -30,10 +34,16 @@ public class RuleParser extends XMLParser {
             Question question = new Question(id,questionText,answer);
 
             this.ruleRepository.addQuestion(question);
+            System.out.println(question.getId());
         }
         //reading the questions part and making Question objects
         //need: iterate through the nodelist: declare rule id(single/multi and question textcontent
         //make question object line Question q = new Question(id, text)
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 
     public Answer loadAnswers(Element element) { //reading the answers part and making Answer objects

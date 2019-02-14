@@ -11,7 +11,6 @@
             <Eval id="consumption">false</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="volvoxc60">
         <Description value="Volvo XC60"/>
         <Evals>
@@ -23,7 +22,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="vwpolo">
         <Description value="Volkswagen Polo 3"/>
         <Evals>
@@ -35,7 +33,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="rollsroyce">
         <Description value="Rolls-Royce Dawn"/>
         <Evals>
@@ -47,7 +44,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="porsche911">
         <Description value="Porsche 911"/>
         <Evals>
@@ -59,7 +55,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="vwgolf">
         <Description value="Volkswagen Golf"/>
         <Evals>
@@ -71,7 +66,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="nissanxtrail">
         <Description value="Nissan X-Trail"/>
         <Evals>
@@ -83,7 +77,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="teslamodel3">
         <Description value="Tesla Model 3"/>
         <Evals>
@@ -95,7 +88,6 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="bugattidivo">
         <Description value="Bugatti Divo"/>
         <Evals>
@@ -107,7 +99,6 @@
             <Eval id="consumption">false</Eval>
         </Evals>
     </Fact>
-    ...
     <Fact id="bentleybentayga">
         <Description value="Bentley Bentayga"/>
         <Evals>
@@ -119,5 +110,4 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
-    ...
 </Facts>
