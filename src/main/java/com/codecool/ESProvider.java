@@ -44,10 +44,11 @@ public class ESProvider {
         }
     }
 
-    public String evaluate(){
+    public List<String> evaluate(){
         // If it finds one then the answer it returns will be the description of the Fact otherwise null.
         String result = null;
         Map<Fact, Map<String, Boolean>> evalMap = new HashMap<>();
+        List<String> resultList = new ArrayList<>();
 
         for(Fact fact : factParser.getFactRepository().getFactList()) {
             evalMap.put(fact, fact.getEvalMap());
@@ -56,9 +57,10 @@ public class ESProvider {
         for(Map.Entry<Fact, Map<String, Boolean>> facts : evalMap.entrySet()) {
             if(facts.getValue().equals(answers)) {
                 result = facts.getKey().getDescription();
+                resultList.add(result);
             }
         }
-        return result;
+        return resultList;
     }
 
     public boolean getAnswerByQuestion(String questionId){

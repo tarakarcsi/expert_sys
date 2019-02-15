@@ -256,10 +256,21 @@
     <Fact id="audia5">
         <Description value="Audi A5"/>
         <Evals>
-            <Eval id="family">yes</Eval>
+            <Eval id="family">true</Eval>
             <Eval id="money">false</Eval>
-            <Eval id="comfort">yes</Eval>
-            <Eval id="luxury">yes</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="trabant">
+        <Description value="Trabant"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
             <Eval id="speed">true</Eval>
             <Eval id="consumption">false</Eval>
         </Evals>

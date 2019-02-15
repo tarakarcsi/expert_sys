@@ -110,4 +110,169 @@
             <Eval id="consumption">true</Eval>
         </Evals>
     </Fact>
+    <Fact id="suzukivitara">
+        <Description value="Suzuki Vitara"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="mantgl">
+        <Description value="MAN TGL"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="paganizonda">
+        <Description value="Pagani Zonda"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="peugeotpartner">
+        <Description value="Peugeot Partner"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="fordfocus">
+        <Description value="Ford Focus"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="jeepgrandcherokee">
+        <Description value="Jeep Grand Cherokee"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="fiat500l">
+        <Description value="Fiat 500L"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="jaguarxf">
+        <Description value="Jaguar XF"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="opelantara">
+        <Description value="Opel Antara"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="peugeot206cc">
+        <Description value="Peugeot 206 CC"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="smartfortwo">
+        <Description value="Smart Fortwo"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">false</Eval>
+            <Eval id="consumption">true</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="ural4320">
+        <Description value="Ural-4320"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="fordmustang">
+        <Description value="Ford Mustang"/>
+        <Evals>
+            <Eval id="family">false</Eval>
+            <Eval id="money">true</Eval>
+            <Eval id="comfort">false</Eval>
+            <Eval id="luxury">false</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="audia5">
+        <Description value="Audi A5"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
+    <Fact id="trabant">
+        <Description value="Trabant"/>
+        <Evals>
+            <Eval id="family">true</Eval>
+            <Eval id="money">false</Eval>
+            <Eval id="comfort">true</Eval>
+            <Eval id="luxury">true</Eval>
+            <Eval id="speed">true</Eval>
+            <Eval id="consumption">false</Eval>
+        </Evals>
+    </Fact>
 </Facts>
